@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mi Portfolio</title>
+    <body>
+      <header>
+        <nav>
+          <ul>
+            <li><img height="60px" src="./img/logo.png" alt="logo mio"></li>
+            <li><a onclick="scrollDiv('home')">Home</a></li>
+            <li><a onclick="scrollDiv('about')">About</a></li>
+            <li><a onclick="scrollDiv('mySkills')">Skills</a></li>
+            <li><a onclick="scrollDiv('myProjects')">Projects</a></li>
+            <li>
+              <button onclick="scrollDiv('contact')">
+                <span class="material-symbols-outlined"> mail </span>
+                <p>Hire me</p>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div id="home" class="home">
+        <div class="izq">
+
+      
+        <div>
+          <h3>Hello</h3>
+          <img width="20px" alt="" src="./img/hello.svg" />
+        </div>
+        <h1>I'm Fullstack</h1>
+        <h1>Java-React Developer</h1>
+        <h3>Realizo servicios web a medida</h3>
+        <div>
+          <a class="logoLink" href="https://www.facebook.com/gustavo.barreiro.144"><i id="facebook" class="logo fa fa-facebook"></i></a>
+          <a class="logoLink" href="https://github.com/barreirogustavounq"><i id="github" class="logo fa fa-github"></i></a>
+          <a class="logoLink" href="https://www.linkedin.com/in/gustavo-barreiro-581359161/"><i id="linkedin" class="logo fa fa-linkedin"></i></a>
+          <a class="logoLink" href="https://www.instagram.com/emiliano0590?igsh=bnRiNTVzM3hnMm9m"><i id="instagram" class="logo fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="der">
+
+        <img width="74%" src="./img/imagen-home.png" alt="imagen portada">
+      </div>
+      </div>
+
+      <div class="Skills" >
+        <div>
+          <h1>3</h1>
+          <h6>YEARS OF<br />EXPERIENCE</h6>
+        </div>
+        <div>
+          <h1>15+</h1>
+          <h6>PROJECTS I HAVE <br />WORKED ON</h6>
+        </div>
+        <div>
+          <img width="35vw" alt="" src="./img/html-1.svg" />
+          <img width="35vw" alt="" src="./img/css-3.svg" />
+          <img width="35vw" alt="" src="./img/javascript.svg" />
+          <img width="35vw" alt="" src="./img/react-2.svg" />
+          <img width="35vw" alt="" src="./img/redux.svg" />
+          <img width="35vw" alt="" src="./img/linux-tux.svg" />
+          <img width="35vw" alt="" src="./img/java.svg" />
+          <img width="35vw" alt="" src="./img/spring.svg" />
+          <img width="35vw" alt="" src="./img/postgresql.svg" />
+          <img width="35vw" alt="" src="./img/mysql-3.svg" />
+        </div>
+      </div>
+
+      <div class="about" id="about"> 
+        <div class="about-container">
+          <h1 class="sectionTittle">About me</h1 class="sectionTittle">
+          <p>
+            I'm Gustavo Barreiro, a 33-year-old Fullstack programmer specializing in Java and React technologies. With three years of hands-on experience in both, I have a strong track record of developing robust and efficient solutions. I hold a degree as a University Technician in Programming, which has provided me with a solid technical foundation. I'm passionate about crafting solutions through programming, always striving for innovation and continuous improvement in every project I undertake.
+          </p>
+        </div>
+      </div>
+      <div class="mySkills" id="mySkills">
+        <div class="mySkillContainer">
+
+        
+        <h1 class="sectionTittle">My Skills</h1 class="sectionTittle">
+        <div>
+          <img width="40px" height="40px" alt="" src="./img/html-1.svg" />
+          <img width="40px" height="40px" alt="" src="./img/css-3.svg" />
+          <img width="40px" height="40px" alt="" src="./img/javascript.svg" />
+          <img width="40px" height="40px" alt="" src="./img/react-2.svg" />
+          <img width="40px" height="40px" alt="" src="./img/redux.svg" />
+          <img width="40px" height="40px" alt="" src="./img/linux-tux.svg" />
+          <img width="40px" height="40px" alt="" src="./img/java.svg" />
+          <img width="40px" height="40px" alt="" src="./img/spring.svg" />
+          <img width="40px" height="40px" alt="" src="./img/postgresql.svg" />
+          <img width="40px" height="40px" alt="" src="./img/mysql-3.svg" />
+          <img width="40px" height="40px" alt="" src="./img/bootstrap.svg" />
+          <img width="40px" height="40px" alt="" src="./img/github-icon.svg" />
+        
+        </div>
+      </div>
+      </div>
+      <div class="myProjects" id="myProjects">
+        <div class="myProjecsContainer">
+          <h1 class="sectionTittle">My Projects</h1 class="sectionTittle">
+              <div class="card-container">
+                <div class="card">
+                    <img src="./img/proyectos/gaming-libre.png" height="50px" alt="Imagen 1">
+                    <h2>Gaming Libre</h2>
+                    <p>EProject carried out at the University for the Final course subject.</p>
+                    <button><a class="logoLink" href="https://github.com/barreirogustavounq/Gaming-Libre" target="_blank">
+                      <i id="github" class="logo fa fa-github"></i>
+                      Go to Github</a></button>
+                </div>
+                <div class="card">
+                    <img src="./img/proyectos/react-tetris.png" height="50px" alt="Imagen 2">
+                    <h2>React Tetris</h2>
+                    <p>Project carried out in a course where I made a game similar to the classic Tetris</p>
+                    <button><a class="logoLink" href="https://github.com/barreirogustavounq/react-tetris-curso" target="_blank">
+                      <i id="github" class="logo fa fa-github"></i>
+                      Go to Github</a></button>
+                </div>
+                <div class="card">
+                    <img src="./img/proyectos/react-redux.png" height="50px" alt="Imagen 3">
+                    <h2>React redux course</h2>
+                    <p>Project carried out in a course where I apply knowledge of React and Redux</p>
+                    <button><a class="logoLink" href="https://github.com/barreirogustavounq/curso_react_redux" target="_blank">
+                      <i id="github" class="logo fa fa-github"></i>
+                      Go to Github</a></button>
+                </div>
+                <div class="card">
+                    <img src="./img/proyectos/buscador-imagenes.png" height="50px" alt="Imagen 4">
+                    <h2>React Search images</h2>
+                    <p>Project carried out in a course where I apply knowledge of React</p>
+                    <button><a class="logoLink" href="https://github.com/barreirogustavounq/api-web-react" target="_blank">
+                      <i id="github" class="logo fa fa-github"></i>
+                      Go to Github</a></button>
+                </div>
+                <div class="card">
+                    <img src="./img/proyectos/perfectnumbers.png" height="50px" alt="Imagen 5">
+                    <h2>Perfect Numbers</h2>
+                    <p>Proyecto realizado para la materia Programacion concurrente </p>
+                    <button><a class="logoLink" href="https://github.com/barreirogustavounq/PerfectNumbers" target="_blank">
+                      <i id="github" class="logo fa fa-github"></i>
+                      Go to Github</a></button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="contact" id="contact">
+        <div class="containerContac">
+          <div id="discuss">
+            <h1 class="sectionTittle">
+              Let's discuss <br />
+              on something cool together
+            </h1 class="sectionTittle">
+            <p>I'm interested in ...</p>
+            <div class="selectionsInterest">
+              <button class="interest">Ecommerce Website </button>
+              <button class="interest">Saas Website</button>
+              <button class="interest">Landing page</button>
+              <button class="interest">Java service</button>
+              <button class="interest">Fullstack service Java-React</button>
+            </div>
+            
+          </div>
+          <div id="form">
+            <form action="/action_page.php">
+          
+              <input type="text" id="fname" name="fname" placeholder="   Your name">
+  
+              <input type="email" id="lname" name="lname" placeholder="   Your mail">
+              <textarea placeholder="  Your message"></textarea>
+              <button id="Submit">
+                <i class="fa fa-paper-plane-o" style="margin: 0% 1%;"></i>
+                  Submit</button>
+                  <div class="container-logo-contact">
+                    <a class="logoLink" href="https://www.facebook.com/gustavo.barreiro.144"><i class="logo fa fa-facebook ContacLogo"></i></a>
+                    <a class="logoLink" href="https://www.linkedin.com/in/gustavo-barreiro-581359161/"><i class="logo fa fa-linkedin ContacLogo"></i></a>
+                    <a class="logoLink" href="https://www.instagram.com/emiliano0590?igsh=bnRiNTVzM3hnMm9m"><i class="logo fa fa-instagram ContacLogo"></i></a>
+                  </div>
+            </form> 
+
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div>
+          <img height="100%" src="./img/logo.png" alt="logo mio">
+          <h3>Built by Barreiro Gustavo</h3>
+          <div>
+            <a href="https://www.facebook.com/gustavo.barreiro.144"><i class="logo fa fa-facebook"></i></a>
+            <a href="https://github.com/barreirogustavounq"><i class="logo fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gustavo-barreiro-581359161/"><i class="logo fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/emiliano0590?igsh=bnRiNTVzM3hnMm9m"><i class="logo fa fa-instagram"></i></a>
+          </div>
+        </div>
+
+      </footer>
+    </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script>
+      function scrollDiv(divId) {
+        var div = document.getElementById(divId);
+        div.scrollIntoView({ behavior:"smooth"})
+      }
+    </script>
+  </head>
+</html>
